@@ -131,11 +131,7 @@ public class AccountDaoImpl implements AccountDao {
 		return status;
 	}
 
-	@Override
-	public String getAllAccs() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 
 }

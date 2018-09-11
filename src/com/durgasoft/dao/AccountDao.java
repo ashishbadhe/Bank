@@ -9,5 +9,4 @@ public interface AccountDao {
 	public String update(String accNo, String accName, String accType, int balance);
 	public String delete(String accNo);
 	
-	public String getAllAccs();
 }
