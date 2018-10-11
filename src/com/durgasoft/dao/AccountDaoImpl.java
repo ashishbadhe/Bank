@@ -126,6 +126,7 @@ public class AccountDaoImpl implements AccountDao {
 			}
 		} catch (Exception e) {
 			status = "failure";
+			System.out.println(e);
 			e.printStackTrace();
 		}
 		return status;
